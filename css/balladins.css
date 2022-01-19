@@ -1,0 +1,188 @@
+/*
+	Apparences de base
+*/
+input[type=submit] {
+	border: 1px solid transparent;
+    background-color: #A82323;
+	color: #EEEEEE;
+    text-transform: uppercase;
+    border-radius: 4px;
+	vertical-align: middle;
+}
+
+input[type=submit]:hover {
+	border: 1px solid #A82323;
+    background-color: #8B1C1C;
+}
+
+input[type=submit]:focus {
+	border: 1px solid #A82323;
+    background-color: #8B1C1C;
+}
+
+/*
+	Barres de navigation
+*/
+
+/* Barre de navigation secondaire présente dans les pages */
+.global-page-header {
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 120px 0 25px 0;
+	position: relative;
+	background: #8B1C1C;
+	color: #fff;
+}
+
+/* Couleur de la barre de navigation */
+#top-bar.animated-header {
+	padding: 20px 0;
+	background: transparent linear-gradient(to right, #8B1C1C 0px, #E5352C 100%) repeat scroll 0% 0%;
+	transition: all 0.5s ease 0s;
+	box-shadow: none;
+}
+
+/* Barre de navigation lorsque l'on n'est pas en haut de la page */
+#top-bar {
+    background: transparent linear-gradient(to right, #8B1C1C 0px, #E5352C 100%) repeat scroll 0% 0%;
+    color: #fff;
+    -webkit-transition: all 0.5s ease-out 0s;
+    transition: all 0.5s ease-out 0s;
+    padding: 15px 0;
+    -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #dedede;
+}
+
+/* Liens de la barre de navigation lorsque l'on n'est pas en haut de la page */
+#top-bar a  {
+    color: #fff;
+}
+
+/* Logo de la barre de navigation */
+#hero-area {
+	background: url('../image/slider.jpg') no-repeat 50%;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 230px 0;
+	color: #fff;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+	position: relative;
+}
+
+/* Liens de la barre de navigation */
+.navbar-header .navbar-brand a {
+    height: auto;
+    display: inline-block;
+	/* On retire le margin-top du lien de l'image de retour à l'accueil */
+    margin-top: 0px;
+}
+
+/* Barre de recherche */
+#top-bar .main-menu li .search-bar {
+	position: relative;
+    font-size: 14px;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease 0s;
+    text-transform: uppercase;
+	padding: 15px;
+}
+
+/* Champ de texte de la barre de recherche */
+#top-bar .main-menu li .search-bar input[type="text"] {
+	color: #000000;
+	height: 20px;
+}
+
+/* Bouton de la barre de recherche */
+#top-bar .main-menu li .search-bar input[type="submit"] {
+	border: 1px solid transparent;
+    background-color: #A82323;
+	color: #EEEEEE;
+	height: 22px;
+}
+
+#top-bar .main-menu li .search-bar input[type="submit"]:hover {
+	border: 1px solid #A82323;
+    background-color: #8B1C1C;
+}
+
+/* Couleur des liens de la barre du haut de page */
+#top-bar .main-menu li a {
+	color: #FFFFFF;
+}
+
+/* Couleur des liens de la barre du haut de page lorsque l'on passe la souris dessus */
+#top-bar .main-menu li a:hover {
+	color: #FDC600;
+}
+
+/*
+	Recherche
+*/
+
+/* Texte de la recherche */
+.pres-rech {
+	text-align: justify;
+	text-justify: inter-word;
+	margin: 5px 0px 5px 25px;
+	padding: 0px;
+}
+
+/* Bouton de la recherche */
+.top-bar-search-button {
+	height: 22px;
+}
+
+/*
+	Détails d'un hôtel
+*/
+.details {
+	font-size: 16px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.details .logo-equip {
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+}
+
+.details .title {
+	display: block;
+}
+
+.details .text {
+	display: block;
+}
+
+.details-button {
+	display: block;
+	margin-top: 10px;
+}
+
+/*
+	Classes simples
+*/
+.bold {
+	font-weight: bold;
+}
+.block {
+	display: block;
+}
+
+/*
+	Couleurs
+*/
+
+/* Couleur rouge par défaut de l'hôtel */
+.bal-color-red  {
+	color: #8B1C1C;
+}
+
+/* Couleur jaune par défaut de l'hôtel */
+.bal-color-yellow  {
+	color: #FDC600;
+}
